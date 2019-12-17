@@ -161,7 +161,7 @@ for ($i=0; $i< $atoms; $i++){
 
 my $gyration_g= sqrt($dis/$atoms)/GY_BOX_RATIO;
 
-#printf("%.3f\n", $gyration_g);
+
 
 exit;
 
