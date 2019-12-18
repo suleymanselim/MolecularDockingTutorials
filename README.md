@@ -1,7 +1,7 @@
 # Molecular docking scripts for virtual screening studies
 
 This repository offers a case study for MDM2 using many docking tools.  
-"ligands" directory contains a diverse ligand set.<sup>1</sup> The "list" file is a list of these ligands.
+"ligands" directory contains a diverse ligand set.<sup>1</sup> The "list" file is a list of these ligands.  
 eBoxSize.pl script calculates the binding center of the reference ligand (ref-lig.mol2) and defines the optimal box size.<sup>2</sup>
 
 
