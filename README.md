@@ -12,5 +12,5 @@ eBoxSize.pl script calculates the binding center of the reference ligand (ref-li
 
 
 
-1   J. Med. Chem. 2007, 50, 4, 726-741
+1   J. Med. Chem. 2007, 50, 4, 726-741 \n
 2   J Cheminform. 2015; 7: 18
