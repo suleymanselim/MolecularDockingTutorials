@@ -5,7 +5,7 @@ This repository offers a case study for MDM2 using many docking tools.
 eBoxSize.pl script calculates the binding center of the reference ligand (ref-lig.mol2) and defines the optimal box size.<sup>2</sup>
 
 
-<p style='color:red'>I will add other docking tools as time goes by.</p>
+<span style="color:red">I will add other docking tools as time goes by.</span>
 
 
 
