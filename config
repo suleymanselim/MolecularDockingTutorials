@@ -1,0 +1,4 @@
+protein_file receptor.mol2
+ligand_file ligand.mol2
+bindingsite_center 
+bindingsite_radius 9.9015
