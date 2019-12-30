@@ -7,7 +7,7 @@ eBoxSize.pl script calculates the binding center of the reference ligand (ref-li
 
 ***I will add other docking tools as time goes by.***
 
-Now,you can find virtual screening script for these tools.
+Now, you can find virtual screening scripts for these tools.
 * [AutoDock](http://autodock.scripps.edu/ )<sup>3</sup>
 * [PLANTS](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/pharmazie-und-biochemie/pharmazie/pharmazeutische-chemie/pd-dr-t-exner/research/plants/)<sup>4,5</sup>
 
