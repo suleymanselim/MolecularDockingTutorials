@@ -36,15 +36,9 @@ $mglbin/pythonsh $script/prepare_gpf4.py -l ligand.pdbqt -r receptor.pdbqt -p np
 $mglbin/pythonsh $script/prepare_dpf4.py -l ligand.pdbqt -r receptor.pdbqt -o complex.dpf &&
 autogrid4 -p complex.gpf -l $i.glg &&
 autodock4 -p complex.dpf -l $i.dlg && 
-cd $home && cp $i/$i.dlg $home/results/autodock && 
-rm -r $i &
+score=`grep "DOCKED: USER    Estimated Free Energy of Binding" results/autodock/$i.dlg|sort -k9 -g|head -n1|awk '{print $9}'` &&
+echo "$i $score" >> $home/autodock-results.dat &&
+cd $home && rm -r $i &
 nrwait $NR_CPUS
-done
-wait
-
-#Getting results
-for i in `cat list`;do
-score=`grep "DOCKED: USER    Estimated Free Energy of Binding" results/autodock/$i.dlg|sort -k9 -g|head -n1|awk '{print $9}'`
-echo "$i $score" >> $home/autodock-results.dat
 done
 wait
