@@ -1,5 +1,5 @@
 @<TRIPOS>MOLECULE
-5zxf (1).pdb
+5zxf
 70 74 1 0 0
 SMALL
 AMBER ff14SB
@@ -151,5 +151,3 @@ AMBER ff14SB
     72   68   23 1
     73   69   23 1
     74   70   23 1
-@<TRIPOS>SUBSTRUCTURE
-     1 NUT     1 RESIDUE           4 A     NUT     0 ROOT
